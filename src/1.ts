@@ -5,7 +5,7 @@
 */
 
 class Student {
-  constructor(public name: string, public age: number, public grade: string) {
+  constructor(public name, public age, public grade) {
     this.name = name;
     this.age = age;
     this.grade = grade;
